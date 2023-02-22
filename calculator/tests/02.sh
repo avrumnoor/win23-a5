@@ -18,7 +18,7 @@ if [[ $($CALCULATOR 10 + 13) -ne 23 ]]; then # If the return code of $PROGRAM is
   exit 1
 fi
 
-if [[ $($CALCULATOR 21 / 3) -ne 9 ]]; then # If the return code of $PROGRAM is non-zero (i.e. error)...
+if [[ $($CALCULATOR 21 / 3) -ne 7 ]]; then # If the return code of $PROGRAM is non-zero (i.e. error)...
   echo 'ERROR! A valid run of the calculator (21 / 3) failed!'
   exit 1
 fi
